@@ -1,5 +1,17 @@
+.main{
+  padding-top: 200px;
+  font-family: "Source Sans 3", sans-serif;
+  background-color:rgb(250, 241, 228);
+  min-height: 100vh;
+}
+
+#welcome{
+  padding-top: 100px;
+}
+
 section{
-  display: grid;
+  display: flex;
+  flex-direction: column;
   place-items: center;
   align-content: center;
   min-height: 100vh;
@@ -25,11 +37,6 @@ p{
   font-size: 24px;
 }
 
-.main{
-  font-family: "Source Sans 3", sans-serif;
-  background-color:rgb(250, 241, 228);
-}
-
 .profile-frame{
   width: 350px;
   height: 350px;
@@ -51,4 +58,31 @@ p{
 .project-image{
   width: 200px;
   height: auto;
+}
+
+.contact-links{
+  margin-bottom: -1px;
+  margin-top: 15px;
+}
+
+.jira-svg,
+.mysql-svg{
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-hide {
+  background-color:rgb(250, 241, 228);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+
+}
+
+.skill{
+  display: flex;
+  flex-direction: row;
 }
