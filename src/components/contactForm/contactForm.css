@@ -1,0 +1,48 @@
+/* Classes */
+.contact-div {
+  align-items: center;
+  background-color: rgb(158, 179, 132);
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  padding: 30px 50px;
+}
+
+.contact-div p {
+  margin-bottom: 2px;
+}
+
+.email {
+  border-color: black;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  width: 90%;
+}
+
+.msg {
+  border-color: black;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 100px;
+  resize: none;
+  width: 95%;
+}
+
+.submit-form {
+  background-color: rgb(250, 241, 228);
+  border-color: rgb(158, 179, 132);
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Elements */
+li {
+  list-style: none;
+}
