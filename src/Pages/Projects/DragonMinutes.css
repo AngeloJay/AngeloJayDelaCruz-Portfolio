@@ -1,0 +1,26 @@
+.div.dragon{
+    display: flex;
+    justify-content: center;
+}
+
+.back-button{
+    right: 30px;
+    position: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(250, 241, 228);
+    border-color: rgb(158, 179, 132);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.dragon-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screenshot{
+
+}
