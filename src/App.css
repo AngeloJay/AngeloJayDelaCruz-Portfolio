@@ -12,6 +12,10 @@ body {
     color: black;
   }
   
+  a:hover{
+    color: rgb(158, 179, 132);
+  }
+  
   .contact-links {
     margin-bottom: -1px;
     margin-top: 15px;
@@ -69,6 +73,11 @@ body {
     height: auto;
     width: 200px;
   }
+  .project-image:hover {
+    height: auto;
+    width: 200px;
+    scale: 1.04;
+  }
   
   .skill {
     display: flex;
@@ -120,6 +129,10 @@ body {
   .ul-tools{
     margin-right: 12px;
   }
+
+  li{
+    list-style: none;
+}
   
   /* ID Selectors */
   #welcome {

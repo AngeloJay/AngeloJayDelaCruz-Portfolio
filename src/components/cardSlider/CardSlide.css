@@ -46,7 +46,9 @@
     cursor: pointer;
   }
   
-  .slider-nav button:hover {
+  .slider-nav button:hover,
+  .slider-nav button:focus-visible{
     opacity: 1;
+    scale: 1.1;
   }
   

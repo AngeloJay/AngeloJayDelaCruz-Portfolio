@@ -70,7 +70,9 @@ function Home() {
       <section data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <h1>Projects</h1>
         <h2>
+          <a href="/projects/DragonMinutes">
           <HeaderAnimated text={"Dragon Minutes"} />
+          </a>
         </h2>
         <a href="/projects/DragonMinutes"><img src={dragonLogo} alt="Dragon Project" className="project-image"/></a>
       </section>
@@ -183,21 +185,30 @@ function Home() {
       </div>
       <section data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <h1>Hobbies and Interests</h1>
+
         <h2>Fishing</h2>
         <p>
           I love to go fishing in when I have spare time.
           <br />
         </p>
+
         <h2>Music</h2>
         <p>
           Being introduced to Hip-Hop in my early stages of life allowed me{" "}
           <br />
           to create a sort of passion for the genre. My favorite artists include
           <br />
-          IDK, Nas, Kendrick Lamar, and 50 Cent.
+          IDK, Nas, Kendrick Lamar, and 50 Cent. If I have the chance you'll
           <br />
+          always find me listening to music!
         </p>
+
         <h2>Video Games</h2>
+        <p>
+          During my pass time I like to play video games! Some of my favorites series
+          <br />
+          are the Fallout, Tekken, and Counter-Strike.
+        </p>
 
         <h2>Fitness</h2>
         <p>

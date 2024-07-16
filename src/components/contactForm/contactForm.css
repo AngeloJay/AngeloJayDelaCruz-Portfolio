@@ -42,6 +42,10 @@
   width: 100%;
 }
 
+.submit-form:hover{
+  scale: 1.02;
+}
+
 /* Elements */
 li {
   list-style: none;
