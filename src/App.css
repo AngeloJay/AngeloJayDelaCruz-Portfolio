@@ -95,14 +95,6 @@ body {
   }
   
   /* Elements */
-  h1 {
-    font-size: 48px;
-    margin-bottom: 45px;
-  }
-  
-  #welcome{
-    margin-top: -43px;
-  }
   
   h2 {
     font-size: 36px;
@@ -115,9 +107,9 @@ body {
   
   p {
     font-size: 24px;
-    line-height: 1.5  ;
+    line-height: 1.5;
   }
-  
+
   .p.welcome{
     margin: -40px;
   }
@@ -144,7 +136,44 @@ body {
     align-content: center;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
     place-items: center;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
+
+  /* Desktop */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+    margin-bottom: 45px;
+  }
+
+  .paragraph{
+    width: 55%;
+    text-align: center;
+  }
+
+  #welcome{
+    margin-top: -43px;
+  }
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 45px;
+  }
+
+  .paragraph{
+    width: 80%;
+    text-align: center;
+  }
+
+  #welcome{
+    margin-top: -70px;
+  }
+}

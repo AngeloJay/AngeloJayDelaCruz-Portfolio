@@ -40,10 +40,12 @@ function Home() {
             </div>
             <span> !</span>
           </h1>
+          <div className="paragraph">
           <p className="p welcome">
             I'm a highly motivated Computer Science graduate from California
             State University, Sacramento!
           </p>
+          </div>
         </section>
       </div>
 
@@ -54,11 +56,12 @@ function Home() {
       </div>
       <section data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <h1>About Me</h1>
+        <div className="paragraph">
         <p>
-          I graduated from Sacramento State in May 2024, with a Bachelors of Computer Science. <br />
-          Having just graduated I am looking forward to solving real world problems and challenges.  <br />
-          While l
+          I graduated from Sacramento State in May 2024, with a Bachelors in Computer Science.
+          Having just graduated I am looking forward to solving real world problems and challenges.
         </p>
+        </div>
       </section>
 
       {/* Projects Section */}
@@ -184,44 +187,36 @@ function Home() {
         <br />
       </div>
       <section data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <h1>Hobbies and Interests</h1>
+        <h1 className="paragraph">Hobbies and Interests</h1>
 
-        <h2>Fishing</h2>
-        <p>
-          I love to go fishing in when I have spare time.
-          <br />
-        </p>
 
         <h2>Music</h2>
+        <div className="paragraph">
         <p>
           Being introduced to Hip-Hop in my early stages of life allowed me{" "}
-          <br />
           to create a sort of passion for the genre. My favorite artists include
-          <br />
           IDK, Nas, Kendrick Lamar, and 50 Cent. If I have the chance you'll
-          <br />
           always find me listening to music!
         </p>
+        </div>
 
         <h2>Video Games</h2>
+        <div className="paragraph">
         <p>
           During my pass time I like to play video games! Some of my favorites series
-          <br />
           are the Fallout, Tekken, and Counter-Strike.
         </p>
+        </div>
 
         <h2>Fitness</h2>
+        <div className="paragraph">
         <p>
           One of the biggest accomplishments I think I have done is losing 55
-          pounds.
-          <br />
-          It was one of the hardest things I had to do but through determination
-          and <br />
-          discpline I was able to restrain my self from eating so much and get
-          myself
-          <br />
-          to very consistently go to the gym.
+          pounds. It was one of the hardest things I had to do but through determination
+          and discpline I was able to restrain my self from eating so much and get
+          myself to very consistently go to the gym.
         </p>
+        </div>
       </section>
 
       {/* Contact Me */}

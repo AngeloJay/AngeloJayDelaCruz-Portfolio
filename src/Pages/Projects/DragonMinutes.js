@@ -23,20 +23,23 @@ function DragonMinutes() {
         <a href='/#projects'><button className='back-button'><box-icon name='arrow-back'></box-icon></button></a>
         </div>
 
-        <section className="section-dragon" data-aos="fade-right">
+        <div className="sectionD" data-aos="fade-right">
         <div className='dragon-div'>
         <HeaderAnimated text={"Dragon Minutes"}/>
         <img src={dragonLogo} alt='dragon' className="page-project-image"/>
         <h1>Description</h1>
-        <p className='content-p'>
-            Dragon Minutes was my senior project at Sacramento State, we were tasked to find our own <br/>
-            clients and provide them with a service that would solve a problem they were having.<br/>
-            Dragon Minutes was created for the Parent Teacher Assosciation of Oak Chan Elementary School.<br/>
-            It was designed to track the math and reading minutes of the school's student body.<br/>
-            Providing a solution to their tracking of minutes via paper, as to lessen the hassle.
+        <div className="paragraph-drag">
+            <p className='content-p'>
+              Dragon Minutes was my senior project at Sacramento State, we were tasked to find our own 
+              clients and provide them with a service that would solve a problem they were having.
+              Dragon Minutes was created for the Parent Teacher Assosciation of Oak Chan Elementary School.
+              It was designed to track the math and reading minutes of the school's student body.
+              Providing a solution to their tracking of minutes via paper, as to lessen the hassle.
             </p>
         </div>
+        </div>
         <CardSlide image1={Main} image2={Profile} image3={Admin}/>
+
         <div>
             <h1>Demo</h1>
         </div>
@@ -45,15 +48,15 @@ function DragonMinutes() {
         <div className='dragon-div2'>
             <h1>Tools</h1>
             <ul>
-            <li className="tools">React.JS</li>
-            <li className="tools">MySQL</li>
-            <li className="tools">Google Cloud</li>
-            <li className="tools">JIRA</li>
-            <li className="tools">Github</li>
-            <li className="tools">Figma</li>
+            <li className="dragtools">React.JS</li>
+            <li className="dragtools">MySQL</li>
+            <li className="dragtools">Google Cloud</li>
+            <li className="dragtools">JIRA</li>
+            <li className="dragtools">Github</li>
+            <li className="dragtools">Figma</li>
             </ul>
         </div>
-        </section>
+        </div>
         
     </div>
   )

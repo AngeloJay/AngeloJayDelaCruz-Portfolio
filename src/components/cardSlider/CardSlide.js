@@ -11,7 +11,7 @@ function CardSlide({ image1, image2, image3 }) {
   };
 
   return (
-    <section className='container'>
+    <div className='container'>
       <div className='slider-wrapper'>
         <div className='slider'>
           <img id="slider-1" src={image1} alt='slide1' />
@@ -31,7 +31,7 @@ function CardSlide({ image1, image2, image3 }) {
           </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
