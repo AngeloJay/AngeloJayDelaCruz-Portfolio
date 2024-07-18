@@ -72,6 +72,7 @@ iframe{
 
     .dragon-div2{
         margin-top: 150px;
+        margin-bottom: 90px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,6 +103,7 @@ iframe{
 
     .dragon-div2{
         margin-top: 50px;
+        margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -27,6 +27,7 @@ function DragonMinutes() {
         <div className='dragon-div'>
         <HeaderAnimated text={"Dragon Minutes"}/>
         <img src={dragonLogo} alt='dragon' className="page-project-image"/>
+
         <h1>Description</h1>
         <div className="paragraph-drag">
             <p className='content-p'>
@@ -40,10 +41,10 @@ function DragonMinutes() {
         </div>
         <CardSlide image1={Main} image2={Profile} image3={Admin}/>
 
-        <div>
+        <div className="dragon-div2">
             <h1>Demo</h1>
-        </div>
         <iframe width="832" height="432" src="https://www.youtube.com/embed/zxoo3ZMxPUw?si=VwNsev4OOvGZsgbP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
         <div className='dragon-div2'>
             <h1>Tools</h1>
