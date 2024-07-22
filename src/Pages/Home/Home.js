@@ -30,6 +30,7 @@ function Home() {
         data-aos-duration="1000"
       >
         <section>
+          <div className="welcome-spacing"></div>
           <div className="profile-frame">
             <img src={profilePicture} alt="profile" className="profile-image" />
           </div>

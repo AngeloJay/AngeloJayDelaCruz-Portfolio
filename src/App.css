@@ -16,120 +16,24 @@ body {
     color: rgb(158, 179, 132);
   }
   
-  .contact-links {
-    margin-bottom: -1px;
-    margin-top: 15px;
-  }
-  
-  .highlight {
-    color: rgb(158, 179, 132);
-  }
-  
-  .highlight:hover {
-    color: #cedebd;
-  }
-  
-  .jira-svg, .mysql-svg {
-    height: 24px;
-    width: 24px;
-  }
-  
-  .main {
-    min-height: 100vh;
-    padding-top: 200px;
-  }
-  
-  .page-bottom{
-    margin-top: 100px;
-  }
-  
-  .profile-frame {
-    border-radius: 50%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, .8);
-    height: 350px;
-    overflow: hidden;
-    width: 350px;
-  }
-  
-  .profile-image {
-    display: block;
-    height: auto;
-    width: 116%;
-    margin: -31px
-  }
-  
-  .profile-image.contact {
-    display: block;
-    height: auto;
-    margin: -66px;
-    width: 130%;
-  }
-  
-  .profile-image:hover {
-    content: 'Test';
-  }
-  
-  .project-image {
-    height: auto;
-    width: 200px;
-  }
-  .project-image:hover {
-    height: auto;
-    width: 200px;
-    scale: 1.04;
-  }
-  
-  .skill {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .skill.tools {
-    display: flex;
-    flex-direction: row;
-    margin-left: 70px;
-  }
-  
-  .welcome-name {
-    display: inline-table;
-  }
-  
   /* Elements */
   
   h2 {
     font-size: 36px;
   }
   
-  .h2-tools {
-    font-size: 36px;
-    margin-left: 25px;
-  }
-  
   p {
     font-size: 24px;
     line-height: 1.5;
-  }
-
-  .p.welcome{
-    margin: -40px;
   }
   
   ul {
     margin: auto;
   }
-  
-  .ul-tools{
-    margin-right: 12px;
-  }
 
   li{
     list-style: none;
 }
-  
-  /* ID Selectors */
-  #welcome {
-    padding-top: 100px;
-  }
   
   /* Section */
   section {
@@ -149,15 +53,6 @@ body {
     margin-bottom: 45px;
   }
 
-  .paragraph{
-    width: 45%;
-    text-align: center;
-  }
-
-  #welcome{
-    margin-top: -43px;
-  }
-
 }
 
 /* Mobile */
@@ -166,14 +61,5 @@ body {
     text-align: center;
     font-size: 32px;
     margin-bottom: 45px;
-  }
-
-  .paragraph{
-    width: 80%;
-    text-align: center;
-  }
-
-  #welcome{
-    margin-top: -70px;
   }
 }

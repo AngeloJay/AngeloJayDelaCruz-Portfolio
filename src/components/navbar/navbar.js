@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './navbar.css';
 
 const Navbar = () => {
@@ -7,6 +7,21 @@ const Navbar = () => {
     const sidebar = document.querySelector('.sidebar');
     sidebar.classList.toggle('active');
   }
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      const sidebar = document.querySelector('.sidebar');
+      if (sidebar.classList.contains('active') && !sidebar.contains(event.target) && !event.target.closest('.hideOnDesktop')) {
+        sidebar.classList.remove('active');
+      }
+    }
+
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="navbar">
@@ -37,7 +52,7 @@ const Navbar = () => {
       {/* Sidebar */}
       <ul className="sidebar">
         <li className="nav-item" onClick={sidebarShow}>
-          <a href="#" className="nav-link"><box-icon name='right-arrow-alt' size='md'></box-icon></a>
+          <a href="#" className="nav-link2"><box-icon name='right-arrow-alt' size='md'></box-icon></a>
         </li>
         <li className="nav-item">
           <a href="#welcome" className="nav-link">Welcome</a>
